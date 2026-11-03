@@ -1,265 +1,154 @@
-# VoidMint
+# <img src="assets/branding/voidmint-mark.svg" width="42" align="center" alt="VoidMint"> VoidMint
 
 <p align="center">
   <img src="assets/branding/voidmint-banner.svg" width="100%" alt="VoidMint — The Quiet Side of Linux">
 </p>
 
 <p align="center">
-  <strong>A Different Shade of Linux.</strong>
-  <br>
-  <sub>A complete visual identity and carefully crafted XFCE desktop experience for Void Linux.</sub>
+  <strong>A quieter desktop. A sharper identity. A lighter way to work.</strong>
 </p>
 
 <p align="center">
-  <a href="https://voidlinux.org/"><img src="https://img.shields.io/badge/BUILT%20FOR-VOID%20LINUX-478061?style=for-the-badge&logo=linux&logoColor=white" alt="Void Linux"></a>
-  <img src="https://img.shields.io/badge/DESKTOP-XFCE-19241D?style=for-the-badge&logo=xfce&logoColor=ABC2AB" alt="XFCE">
-  <img src="https://img.shields.io/badge/DESIGN-DARK%20SAGE-ABC2AB?style=for-the-badge" alt="Dark Sage">
-  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-478061?style=for-the-badge" alt="In Development">
+  <img src="https://img.shields.io/badge/PLATFORM-Void%20Linux-478061?style=for-the-badge&logo=linux&logoColor=white" alt="Void Linux">
+  <img src="https://img.shields.io/badge/DESKTOP-XFCE-478061?style=for-the-badge&logo=xfce&logoColor=white" alt="XFCE">
+  <img src="https://img.shields.io/badge/DESIGN-DARK%20%26%20SAGE-19241D?style=for-the-badge" alt="Dark and Sage">
+  <img src="https://img.shields.io/badge/STATUS-WIP-ABC2AB?style=for-the-badge" alt="Work in Progress">
 </p>
 
 <p align="center">
-  <a href="#-the-project">The Project</a> ·
-  <a href="#-visual-identity">Visual Identity</a> ·
-  <a href="#-desktop-experience">Desktop Experience</a> ·
-  <a href="#-showcase">Showcase</a> ·
-  <a href="#-installation">Installation</a> ·
-  <a href="#-technical-architecture">Architecture</a>
+  <em>Born from the spirit of Void Linux and the calm visual language of Linux Mint.</em>
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/branding/voidmint-divider.svg" width="180" alt="VoidMint divider">
+  <img src="assets/branding/ornament-top.svg" width="72%" alt="Decorative divider">
 </p>
 
-## The Project
+## <img src="assets/icons/sparkles.svg" width="23" align="center"> The idea
 
-**Linux doesn't have to look complicated to feel powerful.**
+**VoidMint** is a carefully crafted XFCE desktop experience for **Void Linux**.
 
-VoidMint is an independent desktop customization project built for [Void Linux](https://voidlinux.org/), transforming the traditional XFCE desktop into a cohesive, minimal, and visually distinctive environment.
+It is an exploration of what a lightweight Linux desktop can feel like when performance and visual identity are treated as equally important.
 
-It combines the recognizable visual influences of Void Linux and Linux Mint into a new identity of its own: a deep green aesthetic, carefully coordinated desktop components, custom visual assets, and thoughtfully selected lightweight tools.
+Inspired by the independence of Void Linux and the welcoming character of Linux Mint, VoidMint creates its own visual language: deep forest surfaces, restrained sage accents, thoughtful spacing, and a desktop that stays out of your way.
 
-Every detail contributes to one experience.
-
-From the smallest GTK refinement to the terminal prompt, from folder icons to window decorations, VoidMint aims to make the entire desktop feel like a single, intentionally designed environment.
-
-This is not an attempt to build another Linux distribution.
-
-It is an attempt to give an existing one a distinctive visual character.
+Not another distribution.  
+Not another desktop environment.  
+**A distinct identity for the desktop you already use.**
 
 <p align="center">
-  <img src="assets/screenshots/hero-desktop.png" width="100%" alt="VoidMint — Full Desktop Showcase">
-  <br>
-  <sub>THE VOIDMINT DESKTOP · MAIN SHOWCASE</sub>
+  <img src="assets/branding/ornament-leaf.svg" width="120" alt="VoidMint decorative leaf">
 </p>
 
 ---
 
-## The Vision
+## <img src="assets/icons/monitor.svg" width="23" align="center"> The desktop
 
 <p align="center">
-  <img src="assets/branding/voidmint-mark.svg" width="112" alt="VoidMint symbol">
+  <img src="assets/screenshots/desktop-overview.png" width="100%" alt="VoidMint desktop overview">
+  <sub>01 / The complete desktop experience</sub>
 </p>
 
-VoidMint is built around a simple idea:
+A cohesive desktop is more than a collection of themes. Every detail should feel like it belongs.
 
-**A desktop should feel designed, not assembled.**
+VoidMint brings together a coordinated set of visual customizations and lightweight desktop tools, designed to create one consistent experience.
 
-Most desktop customization projects focus on individual components. VoidMint approaches the desktop as a unified visual system.
-
-The objective is to create a consistent experience across the applications, interfaces, and tools that make up everyday desktop usage.
-
-### Four Design Pillars
-
-| Pillar | Direction |
-|---|---|
-| Visual Harmony | One coherent identity across the entire desktop |
-| Minimalism | Clean interfaces without unnecessary decoration |
-| Lightweight Design | Practical configurations and carefully selected tools |
-| Independence | An original identity inspired by, but distinct from, existing Linux brands |
+| | Component | Description |
+|:--:|---|---|
+| <img src="assets/icons/palette.svg" width="25"> | **Void-Glass** | A custom GTK theme derived from Orchis |
+| <img src="assets/icons/folder.svg" width="25"> | **Void-Icons** | A custom green folder icon theme |
+| <img src="assets/icons/panels.svg" width="25"> | **XFCE Configuration** | Carefully styled desktop and window-manager settings |
+| <img src="assets/icons/command.svg" width="25"> | **Rofi** | A minimal application launcher configuration |
+| <img src="assets/icons/layers.svg" width="25"> | **Picom** | A lightweight compositor configuration |
+| <img src="assets/icons/terminal.svg" width="25"> | **Terminal** | A coordinated XFCE Terminal appearance |
+| <img src="assets/icons/code.svg" width="25"> | **GTK Styling** | Additional CSS customization |
+| <img src="assets/icons/terminal-square.svg" width="25"> | **Fastfetch** | A personalized system information display |
+| <img src="assets/icons/chevrons.svg" width="25"> | **Starship** | A customized shell prompt |
 
 ---
 
-## Visual Identity
-
-### A New Interpretation of Green
-
-VoidMint's visual language draws inspiration from the green identity of Linux Mint and the distinctive character of Void Linux.
-
-Rather than simply combining existing logos or themes, VoidMint develops a separate visual direction.
-
-The result is a dark botanical aesthetic built around forest green, muted sage, charcoal surfaces, and soft foreground tones.
+## <img src="assets/icons/image.svg" width="23" align="center"> A closer look
 
 <p align="center">
-  <img src="assets/branding/voidmint-identity.svg" width="100%" alt="VoidMint Visual Identity">
-</p>
-
-### Official Color Palette
-
-| Color | Hex | Role |
-|---|---|---|
-| Primary Green | `#478061` | Brand identity and accents |
-| Light Sage | `#ABC2AB` | Highlights and secondary accents |
-| Background | `#101713` | Primary desktop background |
-| Dark Surface | `#19241D` | Panels and interface surfaces |
-| Foreground | `#E3EAE4` | Primary typography |
-| Muted | `#89988F` | Secondary typography |
-
-### Design Language
-
-- Deep green backgrounds.
-- Muted botanical accents.
-- Restrained contrast.
-- Clean typography.
-- Consistent interface surfaces.
-- Minimal visual noise.
-- Carefully coordinated icons and cursor styling.
-
-The intention is not to make everything green.
-
-It is to make green feel natural throughout the environment.
-
----
-
-## Desktop Experience
-
-VoidMint is composed of multiple coordinated layers.
-
-Each layer has a specific responsibility in the overall desktop experience.
-
-### 01 — Void-Glass
-
-<p align="center">
-  <img src="assets/screenshots/void-glass-theme.png" width="100%" alt="Void-Glass GTK Theme">
+  <img src="assets/screenshots/01-desktop.png" width="100%" alt="VoidMint desktop">
   <br>
-  <sub>VOID-GLASS · GTK VISUAL SYSTEM</sub>
-</p>
-
-The central visual foundation of VoidMint.
-
-Void-Glass is a customized GTK theme derived from [Orchis](https://github.com/vinceliuice/Orchis-theme), adapted to the project's green visual identity.
-
-Its theme resources include:
-
-- GTK 2 styling resources.
-- GTK 3 styling resources.
-- GTK 4 styling resources.
-- Cinnamon theme resources.
-- GNOME Shell theme resources.
-- XFWM4 window decoration resources.
-- Custom GTK CSS enhancements.
-
-The theme is designed to provide a consistent appearance across supported desktop interfaces.
-
-### 02 — Void-Icons
-
-<p align="center">
-  <img src="assets/screenshots/void-icons.png" width="100%" alt="Void-Icons Folder Theme">
+  <strong>01 — The desktop</strong>
   <br>
-  <sub>VOID-ICONS · CUSTOM GREEN FOLDER IDENTITY</sub>
+  <sub>A unified dark and green XFCE environment.</sub>
 </p>
 
-A custom folder icon theme developed for VoidMint.
-
-Void-Icons introduces a recognizable green folder identity while complementing the external Papirus-Dark icon theme.
-
-### 03 — Window Management
-
 <p align="center">
-  <img src="assets/screenshots/window-management.png" width="100%" alt="VoidMint Window Management">
-</p>
-
-A coordinated window management experience built around XFCE and XFWM4 styling.
-
-The goal is to maintain visual consistency between window decorations, application interfaces, and the overall desktop appearance.
-
-### 04 — Rofi
-
-<p align="center">
-  <img src="assets/screenshots/rofi.png" width="100%" alt="VoidMint Rofi Launcher">
-</p>
-
-A minimal application launching experience using Rofi.
-
-Its configuration is maintained separately, allowing the launcher to follow the VoidMint visual language.
-
-### 05 — Picom
-
-<p align="center">
-  <img src="assets/screenshots/picom.png" width="100%" alt="VoidMint Picom Configuration">
-</p>
-
-A lightweight Picom configuration for desktop compositing.
-
-VoidMint keeps compositor settings organized independently from the rest of the desktop configuration.
-
-### 06 — Terminal Environment
-
-<p align="center">
-  <img src="assets/screenshots/terminal.png" width="100%" alt="VoidMint Terminal">
-</p>
-
-The terminal is treated as an essential part of the desktop identity.
-
-VoidMint includes coordinated configurations for:
-
-- XFCE Terminal.
-- Fastfetch.
-- Starship.
-
-The result is a command-line environment that visually belongs to the same desktop.
-
----
-
-## Showcase
-
-The following gallery is reserved for actual VoidMint screenshots.
-
-<p align="center">
-  <img src="assets/screenshots/desktop-overview.png" width="100%" alt="Desktop Overview">
+  <img src="assets/screenshots/02-theme.png" width="100%" alt="Void-Glass GTK theme">
   <br>
-  <sub>01 / DESKTOP OVERVIEW</sub>
+  <strong>02 — Void-Glass</strong>
+  <br>
+  <sub>Custom GTK styling with a restrained visual language.</sub>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/desktop-details.png" width="100%" alt="Desktop Details">
+  <img src="assets/screenshots/03-icons.png" width="100%" alt="Void-Icons folder theme">
   <br>
-  <sub>02 / DESKTOP DETAILS</sub>
+  <strong>03 — Void-Icons</strong>
+  <br>
+  <sub>A distinctive green identity for folders.</sub>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/applications.png" width="100%" alt="Application Styling">
+  <img src="assets/screenshots/04-launcher.png" width="100%" alt="Rofi launcher">
   <br>
-  <sub>03 / APPLICATION EXPERIENCE</sub>
+  <strong>04 — Application launcher</strong>
+  <br>
+  <sub>A minimal Rofi configuration that fits the desktop.</sub>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/file-manager.png" width="100%" alt="File Manager">
+  <img src="assets/screenshots/05-terminal.png" width="100%" alt="VoidMint terminal">
   <br>
-  <sub>04 / ICONS AND FILE MANAGEMENT</sub>
+  <strong>05 — Terminal environment</strong>
+  <br>
+  <sub>XFCE Terminal, Fastfetch, and Starship.</sub>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/terminal-environment.png" width="100%" alt="Terminal Environment">
+  <img src="assets/screenshots/06-details.png" width="100%" alt="VoidMint desktop details">
   <br>
-  <sub>05 / TERMINAL ENVIRONMENT</sub>
+  <strong>06 — The details</strong>
+  <br>
+  <sub>Small visual decisions that make the whole desktop feel coherent.</sub>
 </p>
 
 ---
 
-## Technical Architecture
+## <img src="assets/icons/leaf.svg" width="23" align="center"> Design language
 
-VoidMint separates its desktop components into independent directories.
+VoidMint is built around a simple visual principle:
 
-This structure makes the project easier to understand, maintain, extend, and customize.
+**Dark foundations. Natural greens. Nothing unnecessary.**
+
+<p align="center">
+  <img src="assets/branding/palette.svg" width="100%" alt="VoidMint color palette">
+</p>
+
+| Color | Name | Hex |
+|:--:|---|:--:|
+| <img src="assets/icons/swatch-primary.svg" width="28"> | Primary Green | `#478061` |
+| <img src="assets/icons/swatch-sage.svg" width="28"> | Light Sage | `#ABC2AB` |
+| <img src="assets/icons/swatch-background.svg" width="28"> | Background | `#101713` |
+| <img src="assets/icons/swatch-surface.svg" width="28"> | Dark Surface | `#19241D` |
+| <img src="assets/icons/swatch-foreground.svg" width="28"> | Foreground | `#E3EAE4` |
+| <img src="assets/icons/swatch-muted.svg" width="28"> | Muted | `#89988F` |
+
+<p align="center">
+  <img src="assets/branding/ornament-line.svg" width="65%" alt="Decorative line">
+</p>
+
+## <img src="assets/icons/package.svg" width="23" align="center"> What's included
 
 ```text
 VoidMint/
 │
 ├── assets/
-│   ├── branding/
-│   └── screenshots/
 │
 ├── configs/
 │   ├── fastfetch/
@@ -287,72 +176,58 @@ VoidMint/
 └── README.md
 ```
 
-### Component Overview
+<p align="center">
+  <img src="assets/branding/ornament-dots.svg" width="100" alt="Decorative dots">
+</p>
 
-| Component | Location | Responsibility |
-|---|---|---|
-| GTK configuration | `configs/gtk-3.0/` | GTK configuration and styling |
-| Void-Glass | `themes/Void-Glass/` | Custom desktop theme |
-| Void-Icons | `icons/Void-Icons/` | Custom folder icon theme |
-| XFCE | `configs/xfce4/` | Desktop environment settings |
-| Rofi | `configs/rofi/` | Application launcher |
-| Picom | `configs/picom/` | Compositor configuration |
-| Fastfetch | `configs/fastfetch/` | System information |
-| Starship | `configs/starship.toml` | Shell prompt |
+## <img src="assets/icons/blocks.svg" width="23" align="center"> Requirements
+
+VoidMint is designed for the following environment:
+
+- <img src="assets/icons/linux.svg" width="17" align="center"> **Void Linux** — glibc edition
+- <img src="assets/icons/desktop.svg" width="17" align="center"> **XFCE 4**
+- <img src="assets/icons/gtk.svg" width="17" align="center"> **GTK 3**
+- <img src="assets/icons/settings.svg" width="17" align="center"> **Xfconf**
+- <img src="assets/icons/search.svg" width="17" align="center"> **Rofi**
+- <img src="assets/icons/layers.svg" width="17" align="center"> **Picom**
+- <img src="assets/icons/terminal.svg" width="17" align="center"> **XFCE Terminal**
+- <img src="assets/icons/activity.svg" width="17" align="center"> **Fastfetch**
+- <img src="assets/icons/command.svg" width="17" align="center"> **Starship**
+- <img src="assets/icons/folder.svg" width="17" align="center"> **Papirus-Dark**
+- <img src="assets/icons/mouse-pointer.svg" width="17" align="center"> **Bibata-Modern-Ice**
+
+For dependency details, see [`docs/DEPENDENCIES.md`](docs/DEPENDENCIES.md).
 
 ---
 
-## Installation
+## <img src="assets/icons/download.svg" width="23" align="center"> Installation
 
-### System Requirements
-
-VoidMint is designed for:
-
-- Void Linux (glibc).
-- XFCE 4.
-- GTK 3.
-- Xfconf.
-- Rofi.
-- Picom.
-- XFCE Terminal.
-- Fastfetch.
-- Starship.
-- Papirus-Dark.
-- Bibata-Modern-Ice.
-
-For the complete dependency list and additional information, see:
-
-[`docs/DEPENDENCIES.md`](docs/DEPENDENCIES.md)
-
-### Get VoidMint
-
-Clone the repository:
+Get the project:
 
 ```bash
 git clone https://github.com/GwenAsa/VoidMint.git
 cd VoidMint
 ```
 
-### Install
+Run the installer:
 
 ```bash
 chmod +x scripts/install.sh
 ./scripts/install.sh
 ```
 
-The installer applies the provided VoidMint configurations.
+<p align="center">
+  <img src="assets/icons/shield-check.svg" width="22" align="center">
+  <strong> Your existing configuration is backed up before replacement.</strong>
+</p>
 
-**Existing configurations are backed up before replacement.**
-
-This allows the installation process to preserve your previous desktop settings.
+The installer is designed to preserve your existing configuration by creating backups before applying VoidMint settings.
 
 ---
 
-## Recovery & Restoration
+## <img src="assets/icons/history.svg" width="23" align="center"> Restore
 
-Desktop customization should be reversible.
-
-VoidMint includes a dedicated restoration script to help you return to your previous configuration.
+Want to return to your previous desktop configuration?
 
 Run:
 
@@ -360,89 +235,38 @@ Run:
 ./scripts/restore.sh
 ```
 
-The restoration process preserves the currently installed VoidMint files separately while restoring the previous backed-up configurations.
+The restoration script preserves the currently installed VoidMint files separately before restoring the previous configuration.
 
 ---
 
-## Dependencies & External Projects
+## <img src="assets/icons/heart-handshake.svg" width="23" align="center"> Credits & acknowledgements
 
-VoidMint builds upon several established open-source projects.
+VoidMint builds on the work of the open-source desktop community.
 
-| Project | Purpose |
-|---|---|
-| [Void Linux](https://voidlinux.org/) | Base operating system |
-| [XFCE](https://www.xfce.org/) | Desktop environment |
-| [Orchis](https://github.com/vinceliuice/Orchis-theme) | GTK theme foundation |
-| [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | Icon theme dependency |
-| [Bibata](https://github.com/ful1e5/Bibata_Cursor) | Cursor theme dependency |
-| [Rofi](https://github.com/davatorium/rofi) | Application launcher |
-| [Picom](https://github.com/yshui/picom) | Compositor |
-| [Fastfetch](https://github.com/fastfetch-cli/fastfetch) | System information |
-| [Starship](https://starship.rs/) | Shell prompt |
+- **Void Linux** — the independent Linux distribution behind this project.
+- **Linux Mint** — an inspiration for the project's visual direction.
+- **Orchis** — the foundation of the custom GTK theme.
+- **Papirus** — the icon theme dependency.
+- **Bibata** — the cursor theme dependency.
+- **XFCE** — the lightweight desktop environment.
+- **Rofi**, **Picom**, **Fastfetch**, and **Starship** — tools that help shape the experience.
 
-The Orchis-derived theme is customized for VoidMint.
-
-Papirus-Dark and Bibata-Modern-Ice are external dependencies, not original VoidMint assets.
-
-See [`NOTICE.md`](NOTICE.md) for third-party notices, attribution, and licensing information.
+Please see [`NOTICE.md`](NOTICE.md) for attribution and licensing information.
 
 ---
 
-## Project Philosophy
-
-VoidMint is built with a preference for simplicity over unnecessary complexity.
-
-It does not aim to replace XFCE, introduce a new desktop environment, or become an independent Linux distribution.
-
-Instead, it focuses on refining the existing desktop experience through:
-
-- Thoughtful visual design.
-- Consistent component styling.
-- Lightweight configuration.
-- Reusable desktop resources.
-- Organized installation and restoration scripts.
-- An independent visual identity.
-
-The project is intended to remain customizable and approachable rather than becoming an unnecessarily complicated desktop framework.
-
----
-
-## Development Status
+## <img src="assets/icons/roadmap.svg" width="23" align="center"> Project status
 
 **VoidMint is a work in progress.**
 
-The project is under active development, and its visual assets, configurations, documentation, and desktop experience may continue to evolve.
+The project is evolving as its visual identity, desktop configurations, and documentation mature.
 
-Future improvements will focus on refining the existing identity, improving desktop consistency, and expanding the project's visual resources.
-
----
-
-## Contributing
-
-Ideas, suggestions, bug reports, and contributions are welcome.
-
-If you would like to improve VoidMint, feel free to open an issue or submit a pull request.
-
-Contributions should respect the project's core principles:
-
-- Visual consistency.
-- Lightweight implementation.
-- Maintainable configurations.
-- Respect for third-party licenses.
-
----
-
-## License & Attribution
-
-Please consult the repository's licensing and attribution documentation before redistributing project components.
-
-- [`NOTICE.md`](NOTICE.md)
-- [`docs/DEPENDENCIES.md`](docs/DEPENDENCIES.md)
+The goal is not to add complexity. It is to make every part of the experience feel intentional.
 
 ---
 
 <p align="center">
-  <img src="assets/branding/voidmint-mark.svg" width="100" alt="VoidMint">
+  <img src="assets/branding/voidmint-mark.svg" width="76" alt="VoidMint mark">
 </p>
 
 <h2 align="center">VOIDMINT</h2>
@@ -450,13 +274,15 @@ Please consult the repository's licensing and attribution documentation before r
 <p align="center">
   <strong>The Quiet Side of Linux.</strong>
   <br>
-  <sub>Minimal by design. Distinct by nature.</sub>
-  <br><br>
-  Crafted by <a href="https://github.com/GwenAsa">GwenAsa</a>.
-  <br>
-  <a href="https://github.com/GwenAsa/VoidMint">Explore the Repository</a>
+  <sub>Designed with intention. Built for Void.</sub>
 </p>
 
 <p align="center">
-  <sub>Inspired by the Linux ecosystem. Built with its own identity.</sub>
+  <img src="assets/branding/ornament-bottom.svg" width="55%" alt="VoidMint closing ornament">
+</p>
+
+<p align="center">
+  <a href="https://github.com/GwenAsa/VoidMint">Repository</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/GwenAsa">GwenAsa</a>
 </p>
