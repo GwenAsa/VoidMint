@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+*.cache
+*.backup*
+*.previous
+*.failed-*

@@ -1,0 +1,199 @@
+/* =========================================
+   VOID MINT
+   XFCE PANEL + FLOATING DOCK
+   ========================================= */
+
+.xfce4-panel.background {
+    background-color: rgba(16, 22, 19, 0.97);
+    background-image: none;
+    border: none;
+    color: #E3EAE4;
+    font-weight: 500;
+}
+
+/* Top panel buttons */
+.xfce4-panel.background button,
+.xfce4-panel.background button.flat {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    color: #C5D2C9;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.xfce4-panel.background button:hover,
+.xfce4-panel.background button.flat:hover {
+    background-color: rgba(71, 128, 97, 0.18);
+    color: #FFFFFF;
+}
+
+.xfce4-panel.background .tasklist button {
+    margin: 0 2px;
+    padding: 0 8px;
+    border-radius: 7px;
+}
+
+.xfce4-panel.background .tasklist button:checked {
+    background-color: rgba(71, 128, 97, 0.22);
+    color: #FFFFFF;
+    border-bottom: 2px solid #478061;
+}
+
+.xfce4-panel.background wnck-pager {
+    background-color: transparent;
+    color: #AFC8B5;
+}
+
+.xfce4-panel.background wnck-pager:hover {
+    background-color: rgba(71, 128, 97, 0.16);
+}
+
+.xfce4-panel.background separator {
+    background-color: rgba(171, 194, 171, 0.22);
+    min-width: 1px;
+    min-height: 14px;
+}
+
+/* =========================================
+   VOID MINT FLOATING DOCK - PANEL 2
+   ========================================= */
+
+#XfcePanelWindow.panel-2,
+#XfcePanelWindowHidden.panel-2-hidden {
+    border-radius: 14px;
+    border: 1px solid rgba(171, 194, 171, 0.30);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.38);
+}
+
+.xfce4-panel.background.panel-2 {
+    background-color: rgba(16, 25, 20, 0.94);
+    background-image: url("void-grid.svg");
+    background-repeat: repeat;
+    color: #E3EAE4;
+}
+
+.xfce4-panel.background.panel-2 button,
+.xfce4-panel.background.panel-2 button.flat {
+    min-width: 34px;
+    min-height: 34px;
+    margin: 0 3px;
+    padding: 0 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 194, 171, 0.10);
+    background-color: rgba(255, 255, 255, 0.035);
+    background-image: none;
+    color: #D7E3D9;
+    box-shadow: none;
+}
+
+.xfce4-panel.background.panel-2 button:hover,
+.xfce4-panel.background.panel-2 button.flat:hover {
+    background-color: rgba(71, 128, 97, 0.27);
+    border-color: rgba(171, 194, 171, 0.48);
+    color: #FFFFFF;
+}
+
+.xfce4-panel.background.panel-2 button:active,
+.xfce4-panel.background.panel-2 button:checked {
+    background-color: rgba(71, 128, 97, 0.35);
+    border-color: rgba(171, 194, 171, 0.65);
+    color: #FFFFFF;
+}
+
+.xfce4-panel.background.panel-2 separator {
+    background-color: rgba(171, 194, 171, 0.25);
+    min-width: 1px;
+    min-height: 22px;
+    margin: 0 5px;
+}
+
+/* =========================================
+   VOID MINT — CONTEXT MENUS
+   ========================================= */
+
+menu {
+    background-color: #19241D;
+    color: #E3EAE4;
+    border: 1px solid rgba(71, 128, 97, 0.55);
+    border-radius: 9px;
+    padding: 5px;
+}
+
+menu menuitem {
+    color: #E3EAE4;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 9px;
+    min-height: 22px;
+}
+
+menu menuitem:hover,
+menu menuitem:selected {
+    background-color: #31543D;
+    color: #FFFFFF;
+}
+
+menu menuitem:disabled {
+    color: #789783;
+}
+
+menu separator {
+    background-color: rgba(171, 194, 171, 0.22);
+    min-height: 1px;
+    margin: 4px 6px;
+}
+
+menu menuitem arrow {
+    color: #ABC2AB;
+}
+
+popover,
+popover.background {
+    background-color: #19241D;
+    color: #E3EAE4;
+    border: 1px solid rgba(71, 128, 97, 0.55);
+    border-radius: 9px;
+}
+
+popover modelbutton:hover {
+    background-color: #31543D;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   VOID MINT — SCROLLBARS
+   ========================================= */
+
+scrollbar {
+    background-color: #19241D;
+}
+
+scrollbar trough {
+    background-color: #19241D;
+    border-radius: 999px;
+}
+
+scrollbar slider {
+    background-color: #478061;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #ABC2AB;
+}
+
+scrollbar slider:active {
+    background-color: #C5D9C7;
+}
+
+scrollbar slider:disabled {
+    background-color: #526B59;
+}
+

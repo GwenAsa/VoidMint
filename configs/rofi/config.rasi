@@ -1,0 +1,234 @@
+/* ========================================
+   VOID MINT
+   APPLICATION CENTER  /  01.0
+   ======================================== */
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    drun-display-format: "{name}";
+    display-drun: "APPLICATIONS";
+    font: "Sans 10";
+    terminal: "xfce4-terminal";
+    matching: "fuzzy";
+    sort: true;
+    case-sensitive: false;
+}
+
+/* MAIN WINDOW */
+window {
+    width: 940px;
+    location: center;
+    anchor: center;
+    transparency: "real";
+
+    background-color: #101613F2;
+    background-image: linear-gradient(
+        135deg,
+        #1B2B21F0,
+        #101613F5
+    );
+
+    border: 1px;
+    border-color: #47806199;
+    border-radius: 19px;
+    padding: 24px;
+}
+
+/* MAIN LAYOUT */
+mainbox {
+    children: [
+        header,
+        inputbar,
+        listview
+    ];
+
+    spacing: 16px;
+    background-color: transparent;
+}
+
+/* HEADER */
+header {
+    orientation: horizontal;
+    children: [
+        textbox-brand,
+        textbox-version
+    ];
+
+    spacing: 8px;
+    background-color: transparent;
+}
+
+textbox-brand {
+    content: "VOIDMINT";
+    font: "Sans bold 15";
+    text-color: #E3EAE4;
+    expand: true;
+    background-color: transparent;
+}
+
+textbox-version {
+    content: "APPLICATION CENTER  /  01.0";
+    font: "Sans 8";
+    text-color: #AFC8B5;
+    vertical-align: 0.5;
+    horizontal-align: 1;
+    background-color: transparent;
+}
+
+/* SEARCH */
+inputbar {
+    children: [
+        prompt,
+        entry,
+        num-filtered-rows
+    ];
+
+    spacing: 13px;
+    padding: 12px;
+    border: 1px;
+    border-color: #47806170;
+    border-radius: 12px;
+    background-color: #1B2921E8;
+}
+
+prompt {
+    text-color: #AFC8B5;
+}
+
+entry {
+    text-color: #E3EAE4;
+    placeholder: "Search applications...";
+    placeholder-color: #89988F;
+    background-color: transparent;
+    cursor: text;
+}
+
+num-filtered-rows {
+    text-color: #AFC8B5;
+}
+
+/* APPLICATION GRID */
+listview {
+    columns: 4;
+    lines: 3;
+    fixed-height: true;
+    fixed-columns: true;
+    cycle: false;
+    scrollbar: false;
+    spacing: 9px;
+    background-color: transparent;
+}
+
+/* APPLICATION CARD */
+element {
+    orientation: horizontal;
+    padding: 10px;
+    spacing: 10px;
+    border: 1px;
+    border-color: transparent;
+    border-radius: 11px;
+    background-color: #FFFFFF08;
+}
+
+element normal {
+    background-color: #FFFFFF05;
+    text-color: #D7E3D9;
+}
+
+element selected {
+    background-color: #31543DE8;
+    border: 1px;
+    border-color: #478061;
+    text-color: #FFFFFF;
+}
+
+element-icon {
+    size: 32px;
+    background-color: transparent;
+}
+
+element-text {
+    vertical-align: 0.5;
+    text-color: #D7E3D9;
+}
+
+element-text selected {
+    text-color: #FFFFFF;
+}
+
+/* FOOTER / MESSAGE */
+message {
+    background-color: transparent;
+    border: 0px;
+}
+
+textbox {
+    text-color: #AFC8B5;
+    background-color: transparent;
+}
+
+/* ==========================================
+   VOID ORBIT - HIGH CONTRAST APP CARDS
+   ========================================== */
+
+element {
+    orientation: horizontal;
+    spacing: 12px;
+    padding: 13px 12px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+/* Normal applications */
+element normal.normal {
+    background-color: #19241D;
+    border-color: #34483A;
+    text-color: #F1F5F2;
+}
+
+/* Alternate applications */
+element alternate.normal {
+    background-color: #1D2C22;
+    border-color: #45664C;
+    text-color: #F1F5F2;
+}
+
+/* Selected application */
+element selected.normal {
+    background-color: #478061;
+    border-color: #ABC2AB;
+    text-color: #FFFFFF;
+}
+
+/* Active applications */
+element normal.active {
+    background-color: #263B2D;
+    border-color: #478061;
+    text-color: #F1F5F2;
+}
+
+element selected.active {
+    background-color: #478061;
+    border-color: #ABC2AB;
+    text-color: #FFFFFF;
+}
+
+/* Text and icons inherit the correct card colors */
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    foreground-color: inherit;
+    font: "DejaVu Sans 9";
+    vertical-align: 0.5;
+    highlight: bold #FFFFFF;
+}
+
+element-icon {
+    background-color: transparent;
+    text-color: inherit;
+    foreground-color: inherit;
+}
+
+/* VOID ORBIT CONTRAST FIX END */

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=VoidMint
+Comment=A clean green GTK and XFWM theme for XFCE
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Void-Glass
+MetacityTheme=Void-Glass
+IconTheme=Void-Icons
+CursorTheme=Bibata-Modern-Ice
+ButtonLayout=close,minimize,maximize:menu

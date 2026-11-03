@@ -1,0 +1,67 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+add_newline = false
+scan_timeout = 10
+command_timeout = 500
+
+palette = "void"
+
+format = """
+[╭─](bold fg:void_green) $username$hostname$directory$git_branch$git_status$python$nodejs$cmd_duration
+[╰─](bold fg:void_green)$character"""
+
+[palettes.void]
+void_green = "#478061"
+void_sage = "#ABC2AB"
+void_text = "#E3EAE4"
+void_muted = "#89988F"
+void_yellow = "#D8B879"
+void_red = "#D66A6A"
+
+[username]
+show_always = true
+format = "[$user]($style)"
+style_user = "bold fg:void_sage"
+style_root = "bold fg:void_red"
+
+[hostname]
+ssh_only = false
+format = "[@$hostname ]($style)"
+style = "fg:void_muted"
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold fg:void_text"
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " [read-only]"
+read_only_style = "fg:void_red"
+
+[git_branch]
+format = "[ git:$branch]($style) "
+style = "bold fg:void_green"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+style = "fg:void_yellow"
+
+[python]
+format = "[py:$version]($style) "
+style = "fg:void_sage"
+
+[nodejs]
+format = "[node:$version]($style) "
+style = "fg:void_green"
+
+[cmd_duration]
+min_time = 2000
+format = "[took $duration]($style) "
+style = "fg:void_muted"
+
+[character]
+success_symbol = "[❯](bold fg:void_green) "
+error_symbol = "[❯](bold fg:void_red) "
+vimcmd_symbol = "[❮](bold fg:void_sage) "
+
+[package]
+disabled = true
